@@ -1,0 +1,1038 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2016,
+      "max": [
+        0.10478664934635162,
+        -0.044480595737695694,
+        0.56230646371841431
+      ],
+      "min": [
+        -0.11121495068073273,
+        -0.30345198512077332,
+        0.34347131848335266
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24192,
+      "componentType": 5126,
+      "count": 2016,
+      "max": [
+        0.99730461835861206,
+        0.99450027942657471,
+        0.99520105123519897
+      ],
+      "min": [
+        -0.99877291917800903,
+        -0.91743332147598267,
+        -0.99349445104598999
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2016,
+      "max": [
+        0.91670000553131104,
+        0.94440001249313354
+      ],
+      "min": [
+        0.073399998247623444,
+        0.012199999764561653
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3024,
+      "max": [
+        2015
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 48384,
+      "componentType": 5126,
+      "count": 256,
+      "max": [
+        0.052964076399803162,
+        -0.23032501339912415,
+        0.4242645800113678
+      ],
+      "min": [
+        -0.052973948419094086,
+        -0.26132169365882874,
+        0.38822522759437561
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 51456,
+      "componentType": 5126,
+      "count": 256,
+      "max": [
+        0.99610257148742676,
+        0.35750177502632141,
+        0.99991440773010254
+      ],
+      "min": [
+        -0.99610251188278198,
+        -0.89722996950149536,
+        -0.99992138147354126
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 16128,
+      "componentType": 5126,
+      "count": 256,
+      "max": [
+        0.96490001678466797,
+        0.9715999960899353
+      ],
+      "min": [
+        0.02759999968111515,
+        0.032699998468160629
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12096,
+      "componentType": 5125,
+      "count": 384,
+      "max": [
+        255
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 54528,
+      "componentType": 5126,
+      "count": 64,
+      "max": [
+        0.042839884757995605,
+        -0.25834479928016663,
+        0.40988543629646301
+      ],
+      "min": [
+        -0.04284975677728653,
+        -0.26174989342689514,
+        0.39620795845985413
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 55296,
+      "componentType": 5126,
+      "count": 64,
+      "max": [
+        0.39093852043151855,
+        -0.85276353359222412,
+        0.14977328479290009
+      ],
+      "min": [
+        -0.39093780517578125,
+        -0.98962843418121338,
+        -0.51826012134552002
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18176,
+      "componentType": 5126,
+      "count": 64,
+      "max": [
+        0.80140000581741333,
+        0.80119997262954712
+      ],
+      "min": [
+        0.19920000433921814,
+        0.20200000703334808
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 13632,
+      "componentType": 5125,
+      "count": 96,
+      "max": [
+        63
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 56064,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.039531085640192032,
+        -0.26026323437690735,
+        0.40615525841712952
+      ],
+      "min": [
+        -0.039540957659482956,
+        -0.26174989342689514,
+        0.39925840497016907
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 56352,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.086814537644386292,
+        -0.97605973482131958,
+        -0.11488445103168488
+      ],
+      "min": [
+        -0.086814709007740021,
+        -0.99031710624694824,
+        -0.1994258314371109
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18688,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.75389999151229858,
+        0.75360000133514404
+      ],
+      "min": [
+        0.24699999392032623,
+        0.25009998679161072
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14016,
+      "componentType": 5125,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 56640,
+      "componentType": 5126,
+      "count": 1504,
+      "max": [
+        0.25502151250839233,
+        0.1127687469124794,
+        0.54695767164230347
+      ],
+      "min": [
+        -0.2531152069568634,
+        -0.37732818722724915,
+        -0.7875712513923645
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 74688,
+      "componentType": 5126,
+      "count": 1504,
+      "max": [
+        0.99705928564071655,
+        0.99157541990280151,
+        0.98920899629592896
+      ],
+      "min": [
+        -0.9970022439956665,
+        -0.99683600664138794,
+        -0.97926211357116699
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 18880,
+      "componentType": 5126,
+      "count": 1504,
+      "max": [
+        0.99330002069473267,
+        0.97329998016357422
+      ],
+      "min": [
+        0.0096000004559755325,
+        0.13869999349117279
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 14160,
+      "componentType": 5125,
+      "count": 2256,
+      "max": [
+        1503
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 92736,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.054315458983182907,
+        -0.25910916924476624,
+        0.42304995656013489
+      ],
+      "min": [
+        -0.054325331002473831,
+        -0.27570459246635437,
+        0.41789403557777405
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 92832,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.3714601993560791,
+        -0.87504118680953979,
+        -0.31035503745079041
+      ],
+      "min": [
+        -0.37145984172821045,
+        -0.87504136562347412,
+        -0.31035503745079041
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30912,
+      "componentType": 5126,
+      "count": 8,
+      "max": [
+        0.82598429918289185,
+        0.5291287899017334
+      ],
+      "min": [
+        0.82187265157699585,
+        0.4370587170124054
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23184,
+      "componentType": 5125,
+      "count": 12,
+      "max": [
+        7
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 92928,
+      "componentType": 5126,
+      "count": 832,
+      "max": [
+        0.23790091276168823,
+        0.29607751965522766,
+        0.33721187710762024
+      ],
+      "min": [
+        -0.23923827707767487,
+        -0.14635352790355682,
+        -0.1503046452999115
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 102912,
+      "componentType": 5126,
+      "count": 832,
+      "max": [
+        0.99271494150161743,
+        0.87776672840118408,
+        0.96806156635284424
+      ],
+      "min": [
+        -0.99271136522293091,
+        -0.9968341588973999,
+        -0.95184975862503052
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30976,
+      "componentType": 5126,
+      "count": 832,
+      "max": [
+        0.64069998264312744,
+        0.96869999170303345
+      ],
+      "min": [
+        0.12060000002384186,
+        0.52130001783370972
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 23232,
+      "componentType": 5125,
+      "count": 1248,
+      "max": [
+        831
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 112896,
+      "componentType": 5126,
+      "count": 384,
+      "max": [
+        0.24744269251823425,
+        -0.34660324454307556,
+        -0.031319942325353622
+      ],
+      "min": [
+        -0.25458034873008728,
+        -0.52548211812973022,
+        -0.16860881447792053
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 117504,
+      "componentType": 5126,
+      "count": 384,
+      "max": [
+        0.98547035455703735,
+        0.78394263982772827,
+        0.99225538969039917
+      ],
+      "min": [
+        -0.99744874238967896,
+        -0.81010937690734863,
+        -0.99792635440826416
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 37632,
+      "componentType": 5126,
+      "count": 384,
+      "max": [
+        0.76239997148513794,
+        0.85320001840591431
+      ],
+      "min": [
+        0.0096000004559755325,
+        0.011800000444054604
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 28224,
+      "componentType": 5125,
+      "count": 576,
+      "max": [
+        383
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 122112,
+      "componentType": 5126,
+      "count": 760,
+      "max": [
+        0.24728268384933472,
+        0.30927810072898865,
+        -0.04720398411154747
+      ],
+      "min": [
+        -0.24729251861572266,
+        -0.15818534791469574,
+        -0.87732332944869995
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 131232,
+      "componentType": 5126,
+      "count": 760,
+      "max": [
+        0.99760186672210693,
+        0.98699504137039185,
+        0.98801028728485107
+      ],
+      "min": [
+        -0.99760192632675171,
+        -0.99095213413238525,
+        -0.99997931718826294
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 40704,
+      "componentType": 5126,
+      "count": 760,
+      "max": [
+        0.64980000257492065,
+        0.5382000207901001
+      ],
+      "min": [
+        0.031599998474121094,
+        0.012400000356137753
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 30528,
+      "componentType": 5125,
+      "count": 1140,
+      "max": [
+        759
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "chroma3d (https://sketchfab.com/vendol21)",
+      "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+      "source": "https://sketchfab.com/3d-models/low-poly-cartoon-goalkeeper-kid-bdba5b5c41b84698b6327d261a8530ab",
+      "title": "Low Poly Cartoon Goalkeeper Kid"
+    },
+    "generator": "Sketchfab-7.79.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 35088,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 46784,
+      "byteOffset": 35088,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 140352,
+      "byteOffset": 81872,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 222224,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperHair",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.054597100000000003,
+          0.048696900000000001,
+          0.054968900000000001,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperEyesWhite",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.80000000000000004,
+          0.80000000000000004,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperEyesBrown",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.15232499999999999,
+          0.038108200000000002,
+          0.0106631,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperEyesBlack",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.021979200000000001,
+          0.021979200000000001,
+          0.021979200000000001,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperSkin",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.74378999999999995,
+          0.56098000000000003,
+          0.44672000000000001,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperEyebrows",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0374098,
+          0.0374098,
+          0.0374098,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperShirt",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.65000500000000005,
+          0.38042900000000002,
+          0.036472400000000002,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperGloves",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.62666200000000005,
+          0.62666200000000005,
+          0.62666200000000005,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "GoalkeeperShortsShoes",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.046961500000000003,
+          0.046961500000000003,
+          0.046961500000000003,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "KidGoalkeeper_GoalkeeperHair_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperEyesWhite_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperEyesBrown_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperEyesBlack_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperSkin_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperEyebrows_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 5,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperShirt_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 25,
+            "POSITION": 24,
+            "TEXCOORD_0": 26
+          },
+          "indices": 27,
+          "material": 6,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperGloves_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 29,
+            "POSITION": 28,
+            "TEXCOORD_0": 30
+          },
+          "indices": 31,
+          "material": 7,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "KidGoalkeeper_GoalkeeperShortsShoes_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 33,
+            "POSITION": 32,
+            "TEXCOORD_0": 34
+          },
+          "indices": 35,
+          "material": 8,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "31adcacaf3214330a2bdf9e1aca39502.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "matrix": [
+        100,
+        0,
+        0,
+        0,
+        0,
+        -1.6292067939183141e-05,
+        -99.999999999998678,
+        0,
+        0,
+        99.999999999998678,
+        -1.6292067939183141e-05,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "KidGoalkeeper"
+    },
+    {
+      "mesh": 0,
+      "name": "KidGoalkeeper_GoalkeeperHair_0"
+    },
+    {
+      "mesh": 1,
+      "name": "KidGoalkeeper_GoalkeeperEyesWhite_0"
+    },
+    {
+      "mesh": 2,
+      "name": "KidGoalkeeper_GoalkeeperEyesBrown_0"
+    },
+    {
+      "mesh": 3,
+      "name": "KidGoalkeeper_GoalkeeperEyesBlack_0"
+    },
+    {
+      "mesh": 4,
+      "name": "KidGoalkeeper_GoalkeeperSkin_0"
+    },
+    {
+      "mesh": 5,
+      "name": "KidGoalkeeper_GoalkeeperEyebrows_0"
+    },
+    {
+      "mesh": 6,
+      "name": "KidGoalkeeper_GoalkeeperShirt_0"
+    },
+    {
+      "mesh": 7,
+      "name": "KidGoalkeeper_GoalkeeperGloves_0"
+    },
+    {
+      "mesh": 8,
+      "name": "KidGoalkeeper_GoalkeeperShortsShoes_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
