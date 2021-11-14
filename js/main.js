@@ -54,7 +54,7 @@ class Keeper{
         loader.load('./models/keeper/scene.gltf', (gltf) =>{
             scene.add( gltf.scene );
             gltf.scene.scale.set(0.025,0.025,0.025);
-            gltf.scene.position.set(0, 1, 0);
+            gltf.scene.position.set(0, 0.4, 1);
             this.Keeper = gltf.scene;
         })
     }
