@@ -33,6 +33,19 @@ scene.background = background;
 var ballTexture;
 ballTexture = loaderBackground.load('./models/ball.jpg');
 
+const gt = new THREE.TextureLoader().load( "./models/grasslight-big.jpg" );
+const gg = new THREE.PlaneGeometry( 200, 200 );
+const gm = new THREE.MeshPhongMaterial( { color: 0xffffff, map: gt } );
+const ground = new THREE.Mesh( gg, gm );
+
+ground.material.map.repeat.set( 64, 64 );
+ground.material.map.wrapS = THREE.RepeatWrapping;
+ground.material.map.wrapT = THREE.RepeatWrapping;
+ground.material.map.encoding = THREE.sRGBEncoding;
+ground.receiveShadow = true;
+
+scene.add( ground );
+
 let DEAD_PLAYERS = 0
 let SAFE_PLAYERS = 0
 
@@ -86,7 +99,7 @@ class Goal{
 
         loader.load('./models/goal/scene.gltf', (gltf) =>{
             scene.add( gltf.scene );
-            gltf.scene.scale.set(0.009,0.009,0.009);
+            gltf.scene.scale.set(0.009,0.009,0.004);
             gltf.scene.position.set(0, -0.5, 0);
             this.Goal = gltf.scene;
         })
@@ -100,13 +113,13 @@ class Goal{
 
 class Player{
     constructor(name = "Player", radius = .25, posY = 0){
-    const geometry = new THREE.SphereGeometry( .3, 16, 8 );
+    const geometry = new THREE.SphereGeometry( .25, 16, 8 );
     const material = new THREE.MeshBasicMaterial( { 
         color: 0xffffff,
         map:ballTexture
     } );
     const sphere = new THREE.Mesh( geometry, material );
-    sphere.position.z = 1
+    sphere.position.z = 0.05
     sphere.position.x = start_position
     sphere.position.y = posY
     scene.add( sphere );
