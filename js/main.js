@@ -21,7 +21,7 @@ const loader = new THREE.GLTFLoader();
 const start_position = 5
 const end_position = -start_position
 const text = document.querySelector('.text')
-const TIME_LIMIT = 10;
+const TIME_LIMIT = 30;
 let gameState = "loading";
 let isLookingBackward = true;
 
@@ -32,6 +32,9 @@ scene.background = background;
 
 var ballTexture;
 ballTexture = loaderBackground.load('./models/ball.jpg');
+
+let DEAD_PLAYERS = 0
+let SAFE_PLAYERS = 0
 
 camera.position.z = 5;
 
@@ -96,7 +99,7 @@ class Goal{
 }
 
 class Player{
-    constructor(){
+    constructor(name = "Player", radius = .25, posY = 0){
     const geometry = new THREE.SphereGeometry( .3, 16, 8 );
     const material = new THREE.MeshBasicMaterial( { 
         color: 0xffffff,
@@ -105,16 +108,20 @@ class Player{
     const sphere = new THREE.Mesh( geometry, material );
     sphere.position.z = 1
     sphere.position.x = start_position
+    sphere.position.y = posY
     scene.add( sphere );
     this.Player = sphere
     this.playerInfo = {
         positionX: start_position,
-        velocity: 0
+        velocity: 0,
+        name,
+        isDead: false
     }
 
     }
 
     run(){
+        if(this.playerInfo.isDead) return
         this.playerInfo.velocity = .03
     }
 
@@ -123,13 +130,33 @@ class Player{
     }
     
     check(){
+        if(this.playerInfo.isDead) return
         if(this.playerInfo.velocity > 0 && !isLookingBackward){
-            text.innerText = "You lost!"
-            gameState = "over!"
+            text.innerText = this.playerInfo.name + " lost!"
+            this.playerInfo.isDead = true
+            this.stop()
+            DEAD_PLAYERS++
+            if(DEAD_PLAYERS == players.length){
+                text.innerText = "No Winners" 
+                gameState = "over!"
+            }
+            if(DEAD_PLAYERS + SAFE_PLAYERS == players.length){
+                gameState = "over!"
+            }
+            
         }
         if(this.playerInfo.positionX < end_position){
-            text.innerText = "You won!"
-            gameState = "over!"
+            text.innerText = this.playerInfo.name + " won!"
+            this.playerInfo.isDead = true
+            this.stop()
+            SAFE_PLAYERS++
+            if(SAFE_PLAYERS == players.length){
+                text.innerText = "Two Winners"
+                gameState = "over!"
+            }
+            if(DEAD_PLAYERS + SAFE_PLAYERS == players.length){
+                gameState = "over!"
+            }
         }
     }
 
@@ -140,7 +167,22 @@ class Player{
     }
 }
 
-const player = new Player()
+const player1 = new Player("Player 1", .25, .3)
+const player2 = new Player("Player 2", .25, -.3)
+
+const players = [
+    {
+        player: player1,
+        key: "ArrowUp",
+        name: "Player 1"
+    },
+    {
+        player: player2,
+        key: "w",
+        name: "Player 2"
+    }
+]
+
 
 let keeper = new Keeper()
 let goal = new Goal()
@@ -181,8 +223,9 @@ setTimeout(() => {
 
 
 function animate() {
+    players.map(player => player.player.update())
+	renderer.render( scene, camera );
     if(gameState == "over!") return
-	renderer.render( scene, camera, player.update() );
     requestAnimationFrame( animate );
 
 }
@@ -194,20 +237,21 @@ function onWindowResize(){
 
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
-
     renderer.setSize( window.innerWidth, window.innerHeight);
 
 }
 
 window.addEventListener('keydown', function(e){
     if(gameState != "started") return
-    if(e.key == "a"){
-        player.run()
+    let p = players.find(player => player.key == e.key)
+    if(p){
+        p.player.run()
     }
 })
 
 window.addEventListener('keyup', function(e){
-    if(e.key == "a"){
-        player.stop()
+    let p = players.find(player => player.key == e.key)
+    if(p){
+        p.player.stop()
     }
 })
